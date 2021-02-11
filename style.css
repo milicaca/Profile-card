@@ -1,0 +1,124 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: hsl(185, 75%, 39%);
+    }
+    
+    .top {
+        position: absolute;
+        width: 50%;
+        top: -40%;
+        left: -8%;
+    }
+    
+    .bottom-circle {
+        position: absolute;
+        width: 50%;
+        bottom: -50%;
+        right: -7%;
+    }
+    
+    .card {
+        position: absolute;
+        height: 390px;
+        width: 350px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgb(255, 255, 255);
+        border-radius: 15px;
+    }
+    
+    .svg {
+        position: relative;
+        background-image: url("images/bg-pattern-card.svg");
+        width: 100%;
+        height: 120px;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .circle {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: 5px solid white;
+        border-radius: 50%;
+        background-image: url("images/image-victor.jpg");
+        top: 20%;
+        left: 35%;
+        background-position: center;
+    }
+    
+    .s1 {
+        font-size: 18px;
+        font-family: 'Kumbh Sans';
+        font-weight: 700;
+        color: hsl(229, 23%, 23%);
+    }
+    
+    .name {
+        position: absolute;
+        top: 55%;
+        left: 34%;
+    }
+    
+    .s2 {
+        font-size: 18px;
+        font-family: 'Kumbh Sans';
+        font-weight: 400;
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .age {
+        position: absolute;
+        top: 55%;
+        right: 28%;
+    }
+    
+    .s3 {
+        font-size: 14px;
+        font-family: 'Kumbh Sans';
+        font-weight: 400;
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .location {
+        position: absolute;
+        bottom: 32%;
+        right: 41%;
+    }
+    
+    .bottom {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        bottom: 6%;
+        padding: 8px 4px;
+        border-top: 1px solid hsl(0, 0%, 59%);
+        text-align: center;
+    }
+    
+    .followers,
+    .likes,
+    .photos {
+        padding-top: 7px;
+    }
+    
+    .k {
+        font-family: 'Kumbh Sans';
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .t {
+        font-family: 'Kumbh Sans';
+        font-size: 14px;
+        padding: 5px 15px;
+        color: hsl(0, 0%, 59%);
+    }
